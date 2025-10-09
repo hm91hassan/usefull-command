@@ -1,0 +1,10 @@
+# Restart specific program
+sudo supervisorctl restart extension-shopify:*
+
+# Or restart all supervisor processes
+sudo supervisorctl restart all
+
+# Check status
+sudo supervisorctl status
+
+
